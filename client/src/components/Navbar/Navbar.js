@@ -1,4 +1,4 @@
-import { Typography, AppBar, Toolbar, Button } from '@material-ui/core';
+import { Typography, AppBar, Toolbar, Button, Avatar } from '@material-ui/core';
 import React from 'react';
 import { Link } from 'react-router-dom';
 import memories from '../../images/memories.png';
