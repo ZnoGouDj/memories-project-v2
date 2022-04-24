@@ -6,6 +6,10 @@ export default makeStyles(theme => ({
     objectFit: 'cover',
     width: '100%',
     maxHeight: '600px',
+    maxWidth: '800px',
+    [theme.breakpoints.down('md')]: {
+      maxWidth: '600px',
+    },
   },
   card: {
     display: 'flex',
@@ -28,6 +32,7 @@ export default makeStyles(theme => ({
   },
   recommendedPosts: {
     display: 'flex',
+    justifyContent: 'space-between',
     [theme.breakpoints.down('sm')]: {
       flexDirection: 'column',
     },
