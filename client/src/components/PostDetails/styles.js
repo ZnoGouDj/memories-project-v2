@@ -47,6 +47,7 @@ export default makeStyles(theme => ({
   },
   commentsOuterContainer: {
     display: 'flex',
+    // flexDirection: 'column',
     justifyContent: 'space-between',
   },
   commentsInnerContainer: {
