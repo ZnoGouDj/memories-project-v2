@@ -16,7 +16,7 @@ export default makeStyles({
   card: {
     display: 'flex',
     flexDirection: 'column',
-    justifyContent: 'space-between',
+    // justifyContent: 'space-between',
     borderRadius: '15px',
     height: '100%',
     position: 'relative',
@@ -44,9 +44,16 @@ export default makeStyles({
   title: {
     padding: '0 16px',
   },
+  message: {
+    marginBottom: '40px',
+  },
   cardActions: {
-    padding: '0 16px 8px 16px',
-    display: 'flex',
-    justifyContent: 'space-between',
+    padding: '8px 16px 8px 16px',
+    // display: 'flex',
+    // justifyContent: 'space-between',
+    zIndex: '1',
+    position: 'absolute',
+    bottom: '0',
+    left: '0',
   },
 });
